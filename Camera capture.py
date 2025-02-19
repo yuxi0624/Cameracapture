@@ -44,8 +44,14 @@ while True:
         im = Image.fromarray(inner_rgb)
         im = im.resize((224, 224))
         im.save(f'out{i:04d}.png')
-        print(f"图像已保存为 out{i:04d}.png")
+        print(f"out{i:04d}.png")
         i += 1
 
 cap.release()
 cv2.destroyAllWindows()
+
+#I have basically completed the code of the first two problems, and now I can use the camera and read the image, save the image through w, 
+and exit through q.In the second question, I also realized that the QR code can be detected, traversed the detected QR code,
+and then obtained the QR code coordinates to decode the data, thus outputting the QR code data
+The third problem I haven't achieved yet, I'm still trying
+
