@@ -51,7 +51,7 @@ cap.release()
 cv2.destroyAllWindows()
 
 #I have basically completed the code of the first two problems, and now I can use the camera and read the image, save the image through w, 
-and exit through q.In the second question, I also realized that the QR code can be detected, traversed the detected QR code,
-and then obtained the QR code coordinates to decode the data, thus outputting the QR code data
-The third problem I haven't achieved yet, I'm still trying
+#and exit through q.In the second question, I also realized that the QR code can be detected, traversed the detected QR code,
+#and then obtained the QR code coordinates to decode the data, thus outputting the QR code data
+#The third problem I haven't achieved yet, I'm still trying
 
